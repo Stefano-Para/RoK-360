@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'RokFont';
+    src: url('@/assets/fonts/RokFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  body {
+    font-family: 'RokFont', sans-serif;
+  }
